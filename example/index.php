@@ -1,13 +1,13 @@
 <?php
 
 // Require
-require('../vendor/CyrilPerrin/Rss.php');
+require('../vendor/CyrilPerrin/Rss/Rss.php');
 
 // HTTP header
 header('content-type:application/rss+xml');
 
 // Example
-$rss = new CyrilPerrin\Rss(
+$rss = new CyrilPerrin\Rss\Rss(
     'Test', 'http://www.example.org', 'Test RSS', 'en', '120', time()
 );
 $rss->setImage('Tux', 'tux.png', 'http://www.example.org');

@@ -1,6 +1,6 @@
 <?php
 
-namespace CyrilPerrin;
+namespace CyrilPerrin\Rss;
 
 /**
  * Class to build RSS flux
